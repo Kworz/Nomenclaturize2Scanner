@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D18F1C629D18E89008C3675 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3D18F1C529D18E89008C3675 /* CodeScanner */; };
+		3D18F1C829D18FD3008C3675 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18F1C729D18FD3008C3675 /* SafariView.swift */; };
 		3D9A00AA29CC611F00250C76 /* nomenclaturizeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00A929CC611F00250C76 /* nomenclaturizeScannerApp.swift */; };
 		3D9A00AC29CC611F00250C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00AB29CC611F00250C76 /* ContentView.swift */; };
 		3D9A00AE29CC611F00250C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A00AD29CC611F00250C76 /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D18F1C729D18FD3008C3675 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		3D9A00A629CC611F00250C76 /* nomenclaturizeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nomenclaturizeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9A00A929CC611F00250C76 /* nomenclaturizeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomenclaturizeScannerApp.swift; sourceTree = "<group>"; };
 		3D9A00AB29CC611F00250C76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D18F1C629D18E89008C3675 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +100,7 @@
 			children = (
 				3D9A00A929CC611F00250C76 /* nomenclaturizeScannerApp.swift */,
 				3D9A00AB29CC611F00250C76 /* ContentView.swift */,
+				3D18F1C729D18FD3008C3675 /* SafariView.swift */,
 				3D9A00AD29CC611F00250C76 /* Assets.xcassets */,
 				3D9A00AF29CC611F00250C76 /* Preview Content */,
 			);
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = nomenclaturizeScanner;
+			packageProductDependencies = (
+				3D18F1C529D18E89008C3675 /* CodeScanner */,
+			);
 			productName = nomenclaturizeScanner;
 			productReference = 3D9A00A629CC611F00250C76 /* nomenclaturizeScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 3D9A009D29CC611F00250C76;
+			packageReferences = (
+				3D18F1C429D18E89008C3675 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 3D9A00A729CC611F00250C76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +270,7 @@
 			files = (
 				3D9A00AC29CC611F00250C76 /* ContentView.swift in Sources */,
 				3D9A00AA29CC611F00250C76 /* nomenclaturizeScannerApp.swift in Sources */,
+				3D18F1C829D18FD3008C3675 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +432,13 @@
 				DEVELOPMENT_TEAM = PRRX6VUH92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Will be using camera to scan QRCodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +463,13 @@
 				DEVELOPMENT_TEAM = PRRX6VUH92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Will be using camera to scan QRCodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +599,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D18F1C429D18E89008C3675 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D18F1C529D18E89008C3675 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D18F1C429D18E89008C3675 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D9A009E29CC611F00250C76 /* Project object */;
 }
