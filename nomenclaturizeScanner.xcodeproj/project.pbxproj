@@ -13,9 +13,6 @@
 		3D9A00AC29CC611F00250C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00AB29CC611F00250C76 /* ContentView.swift */; };
 		3D9A00AE29CC611F00250C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A00AD29CC611F00250C76 /* Assets.xcassets */; };
 		3D9A00B129CC611F00250C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A00B029CC611F00250C76 /* Preview Assets.xcassets */; };
-		3D9A00BB29CC612000250C76 /* nomenclaturizeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00BA29CC612000250C76 /* nomenclaturizeScannerTests.swift */; };
-		3D9A00C529CC612000250C76 /* nomenclaturizeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00C429CC612000250C76 /* nomenclaturizeScannerUITests.swift */; };
-		3D9A00C729CC612000250C76 /* nomenclaturizeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A00C629CC612000250C76 /* nomenclaturizeScannerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +40,7 @@
 		3D9A00AD29CC611F00250C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9A00B029CC611F00250C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D9A00B629CC612000250C76 /* nomenclaturizeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nomenclaturizeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9A00BA29CC612000250C76 /* nomenclaturizeScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomenclaturizeScannerTests.swift; sourceTree = "<group>"; };
 		3D9A00C029CC612000250C76 /* nomenclaturizeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nomenclaturizeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9A00C429CC612000250C76 /* nomenclaturizeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomenclaturizeScannerUITests.swift; sourceTree = "<group>"; };
-		3D9A00C629CC612000250C76 /* nomenclaturizeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nomenclaturizeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				3D9A00A829CC611F00250C76 /* nomenclaturizeScanner */,
-				3D9A00B929CC612000250C76 /* nomenclaturizeScannerTests */,
-				3D9A00C329CC612000250C76 /* nomenclaturizeScannerUITests */,
 				3D9A00A729CC611F00250C76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,23 +105,6 @@
 				3D9A00B029CC611F00250C76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3D9A00B929CC612000250C76 /* nomenclaturizeScannerTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D9A00BA29CC612000250C76 /* nomenclaturizeScannerTests.swift */,
-			);
-			path = nomenclaturizeScannerTests;
-			sourceTree = "<group>";
-		};
-		3D9A00C329CC612000250C76 /* nomenclaturizeScannerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3D9A00C429CC612000250C76 /* nomenclaturizeScannerUITests.swift */,
-				3D9A00C629CC612000250C76 /* nomenclaturizeScannerUITestsLaunchTests.swift */,
-			);
-			path = nomenclaturizeScannerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9A00BB29CC612000250C76 /* nomenclaturizeScannerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9A00C529CC612000250C76 /* nomenclaturizeScannerUITests.swift in Sources */,
-				3D9A00C729CC612000250C76 /* nomenclaturizeScannerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
